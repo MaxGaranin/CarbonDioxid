@@ -1,0 +1,14 @@
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\appsettings.json
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.deps.json
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.runtimeconfig.json
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.runtimeconfig.dev.json
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.dll
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.pdb
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.Model.dll
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\bin\Debug\netcoreapp3.1\CarbonDioxide.Model.pdb
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\obj\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.csprojAssemblyReference.cache
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\obj\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.AssemblyInfoInputs.cache
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\obj\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.AssemblyInfo.cs
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\obj\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.csproj.CopyComplete
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\obj\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.dll
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.DataAccess\obj\Debug\netcoreapp3.1\CarbonDioxide.DataAccess.pdb

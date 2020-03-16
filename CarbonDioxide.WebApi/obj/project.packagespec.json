@@ -1,0 +1,60 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.WebApi\\CarbonDioxide.WebApi.csproj",
+    "projectName": "CarbonDioxide.WebApi",
+    "projectPath": "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.WebApi\\CarbonDioxide.WebApi.csproj",
+    "outputPath": "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.WebApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.DataAccess\\CarbonDioxide.DataAccess.csproj": {
+            "projectPath": "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.DataAccess\\CarbonDioxide.DataAccess.csproj"
+          },
+          "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.Model\\CarbonDioxide.Model.csproj": {
+            "projectPath": "D:\\work835\\Dev\\My\\Projects\\CarbonDioxide\\CarbonDioxide.Model\\CarbonDioxide.Model.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

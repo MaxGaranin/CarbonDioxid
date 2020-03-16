@@ -1,0 +1,8 @@
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\bin\Debug\netcoreapp3.1\CarbonDioxide.Model.deps.json
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\bin\Debug\netcoreapp3.1\CarbonDioxide.Model.dll
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\bin\Debug\netcoreapp3.1\CarbonDioxide.Model.pdb
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\obj\Debug\netcoreapp3.1\CarbonDioxide.Model.csprojAssemblyReference.cache
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\obj\Debug\netcoreapp3.1\CarbonDioxide.Model.AssemblyInfoInputs.cache
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\obj\Debug\netcoreapp3.1\CarbonDioxide.Model.AssemblyInfo.cs
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\obj\Debug\netcoreapp3.1\CarbonDioxide.Model.dll
+D:\work835\Dev\My\Projects\CarbonDioxide\CarbonDioxide.Model\obj\Debug\netcoreapp3.1\CarbonDioxide.Model.pdb
