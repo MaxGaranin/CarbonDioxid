@@ -10,17 +10,29 @@ namespace CarbonDioxide.WebApi.Controllers
     [Route("[controller]")]
     public class CarbonController : ControllerBase
     {
-        private readonly CarbonDbContext _dbContext;
-        
-        public CarbonController()
-        {
-            _dbContext = new CarbonDbContext(ConfigurationHelper.GetDbContextOptions());
-        }
-        
         [HttpGet]
         public IEnumerable<MeasureItem> Get()
         {
-            return _dbContext.MeasureItems.ToList();
+            using (var dbContext = GetDbContext())
+            {
+                return dbContext.MeasureItems.ToList();                
+            }
+        }
+
+        [HttpPost]
+        public void Post([FromBody] MeasureItem measureItem)
+        {
+            using (var dbContext = GetDbContext())
+            {
+                dbContext.MeasureItems.Add(measureItem);
+                dbContext.SaveChanges();
+            }
+        }
+
+        private static CarbonDbContext GetDbContext()
+        {
+            var dbContext = new CarbonDbContext(ConfigurationHelper.GetDbContextOptions());
+            return dbContext;
         }
     }
 }
