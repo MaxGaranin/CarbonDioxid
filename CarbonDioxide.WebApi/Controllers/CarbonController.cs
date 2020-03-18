@@ -4,6 +4,7 @@ using System.Linq;
 using CarbonDioxide.DataAccess;
 using CarbonDioxide.Model.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarbonDioxide.WebApi.Controllers
 {
@@ -13,6 +14,14 @@ namespace CarbonDioxide.WebApi.Controllers
     {
         private const int MaxItemsCount = 200;
 
+        static CarbonController()
+        {
+            using (var dbContext = GetDbContext())
+            {
+                dbContext.Database.Migrate();
+            }
+        }
+        
         [HttpGet]
         public IEnumerable<MeasureItem> Get()
         {

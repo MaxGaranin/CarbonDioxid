@@ -9,5 +9,11 @@
       <ProjectReference Include="..\CarbonDioxide.Model\CarbonDioxide.Model.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Carbon.db">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 
 </Project>
