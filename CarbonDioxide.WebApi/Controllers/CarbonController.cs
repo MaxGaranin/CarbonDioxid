@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using CarbonDioxide.DataAccess;
@@ -10,12 +11,28 @@ namespace CarbonDioxide.WebApi.Controllers
     [Route("[controller]")]
     public class CarbonController : ControllerBase
     {
+        private const int MaxItemsCount = 200;
+
         [HttpGet]
         public IEnumerable<MeasureItem> Get()
         {
             using (var dbContext = GetDbContext())
             {
-                return dbContext.MeasureItems.ToList();                
+                var count = dbContext.MeasureItems.Count();
+                if (count <= MaxItemsCount)
+                {
+                    return dbContext.MeasureItems.ToList();
+                }
+                else
+                {
+                    var step = (int) Math.Ceiling((double) count / MaxItemsCount);
+                    return dbContext.MeasureItems
+                        .ToList()
+                        .Select((x, i) => new { Item = x, Index = i})
+                        .Where(x => x.Index % step == 0)
+                        .Select(x => x.Item)
+                        .ToList();
+                }
             }
         }
 
