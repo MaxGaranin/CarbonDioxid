@@ -15,7 +15,7 @@ updateChart();
 
 setInterval(() => {
     fetchDataAndUpdateChart();
-    }, 1000);
+    }, 10000);
 
 function updateChart() {
     chart.data = {
