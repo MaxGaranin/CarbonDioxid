@@ -38,10 +38,15 @@ namespace CarbonDioxide.WebApi.Controllers
                     .ToList();
             }
         }
-
+        
         [HttpPost]
         public void Post([FromBody] MeasureItem measureItem)
         {
+            if (measureItem.Date == DateTime.MinValue)
+            {
+                measureItem.Date = DateTime.Now;
+            }
+            
             _dbContext.MeasureItems.Add(measureItem);
             _dbContext.SaveChanges();
         }

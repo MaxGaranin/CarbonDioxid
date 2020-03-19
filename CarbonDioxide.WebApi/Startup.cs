@@ -45,7 +45,7 @@ namespace CarbonDioxide.WebApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, CarbonDbContext dbContext)
         {
             if (env.IsDevelopment())
             {
@@ -59,11 +59,12 @@ namespace CarbonDioxide.WebApi
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
-            
-            using (var context = app.ApplicationServices.GetService<CarbonDbContext>())
-            {
-                context.Database.Migrate();
-            }
+
+            dbContext.Database.EnsureCreated();
+            // if (dbContext.Database.GetPendingMigrations().Any())
+            // {
+            //     dbContext.Database.Migrate();
+            // }
         }
     }
 }
